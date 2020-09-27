@@ -1,3 +1,8 @@
+body,
+html {
+    scroll-behavior: smooth;
+}
+
 div {
     width: 1440px;
     margin: 0px auto;
@@ -417,4 +422,22 @@ div {
     position: absolute;
     bottom: 0px;
     left: 413px;
+}
+
+.return-top {
+    width: 60px;
+    height: 60px;
+    background: #4F82E8;
+    position: fixed;
+    right: 0px;
+    bottom: 120px;
+    text-align: center;
+}
+
+.return-top:hover {
+    background: #DD8E1B;
+}
+
+.return-top>a>img {
+    margin-top: 10px;
 }
